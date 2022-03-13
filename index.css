@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgba(34, 34, 34, 0.932);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.myForm {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: fit-content;
+    background-color: #fff;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs input,textarea {
+    width: 100%;
+    padding: 20px;
+    border: 2px solid #333;
+    resize: none;
+}
+
+.inputs input:focus {
+    outline: none;
+}
+
+.inputs textarea:focus {
+    outline: none;
+}
+
+.inputs button {
+    width: 100%;
+    padding: 10px 13px;
+    border: 2px solid #333;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.inputs button:focus {
+    outline: none;
+}

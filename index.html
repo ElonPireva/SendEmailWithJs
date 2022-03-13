@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Send Email</title>
+</head>
+<body>
+    
+    <h1>Send Email With Javascript</h1>
+
+    <form action="#" method="post" class="myForm" autocomplete="off">
+        <div class="inputs">
+            <input type="text" id="name" placeholder="Name">
+            <input type="text" id="lastname" placeholder="Last Name">
+            <input type="email" id="email" placeholder="Email">
+            <input type="text" id="subject" placeholder="Subject">
+            <textarea name="msg" id="msg" placeholder="Message.."></textarea>
+            <button id="btn">Submit</button>
+        </div>
+    </form>
+
+
+    <!-- Link for SMTP  -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script src="index.js"></script>
+</body>
+</html>
